@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capa_Acceso_Datos", "Capa_A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capa_Model", "Capa_Model\Capa_Model.csproj", "{6D92431B-ADE9-444F-AEF5-E42C8BDCC3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pruebas_Unitarias", "Pruebas_Unitarias\Pruebas_Unitarias.csproj", "{4CBDBE97-78A6-4F97-B47E-72605FF4EC27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pruebas_Unitarias", "Pruebas_Unitarias\Pruebas_Unitarias.csproj", "{4CBDBE97-78A6-4F97-B47E-72605FF4EC27}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{3ADBE422-7C5A-4984-80EA-5475C6926FAC}"
 	ProjectSection(SolutionItems) = preProject
-		Ejecicios_Propuestos.MD = Ejecicios_Propuestos.MD
+		Ejercicios_Propuestos.MD = Ejercicios_Propuestos.MD
 	EndProjectSection
 EndProject
 Global
