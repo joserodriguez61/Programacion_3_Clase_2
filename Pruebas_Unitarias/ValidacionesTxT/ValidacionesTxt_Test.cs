@@ -22,5 +22,21 @@ namespace Pruebas_Unitarias.ValidacionesTxT
             Assert.AreEqual(respuestaEsperada,respuestaObtenida);
 
         }
+
+        public void Valida_Tamanno_Nombre_Archivo_Cuando_Archivo_Invalido() {
+
+            //Arrange
+            ValidacionesTxt validaciones = new ValidacionesTxt();
+            bool respuestaEsperada = false;
+            string nombreArchivo = "EstoesunaPrueba";
+
+            //Act
+            bool respuestaObtenida = validaciones.Valide_Tamanno_Nombre_Archivo(nombreArchivo);
+
+            //Assert 
+
+            Assert.AreEqual(respuestaEsperada,respuestaObtenida);
+        
+        }
     }
 }
