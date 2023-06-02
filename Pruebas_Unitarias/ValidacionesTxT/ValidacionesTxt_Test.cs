@@ -11,10 +11,14 @@ namespace Pruebas_Unitarias.ValidacionesTxT
 
             //Arrange
             ValidacionesTxt validaciones = new ValidacionesTxt();
+            bool respuestaEsperada = true;
+            string nombreArchivo = "Prueba";
 
             //Act
+            bool respuestaObtenida = validaciones.Valide_Tamanno_Nombre_Archivo(nombreArchivo);
 
             //Assert
+            Assert.AreEqual(respuestaEsperada,respuestaObtenida);
 
         }
     }
