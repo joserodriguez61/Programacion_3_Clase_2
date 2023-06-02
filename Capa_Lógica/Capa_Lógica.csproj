@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Formulario\" />
-    <Folder Include="Password\" />
+    <Compile Remove="Formulario\**" />
+    <Compile Remove="Password\**" />
+    <EmbeddedResource Remove="Formulario\**" />
+    <EmbeddedResource Remove="Password\**" />
+    <None Remove="Formulario\**" />
+    <None Remove="Password\**" />
   </ItemGroup>
 
 </Project>

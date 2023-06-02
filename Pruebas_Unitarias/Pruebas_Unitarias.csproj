@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Capa_Acceso_Datos\Capa_Acceso_Datos.csproj" />
+    <ProjectReference Include="..\Capa_Lógica\Capa_Lógica.csproj" />
   </ItemGroup>
 
 </Project>
