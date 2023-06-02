@@ -7,6 +7,7 @@ namespace Pruebas_Unitarias.ValidacionesTxT
     [TestClass]
     public class ValidacionesTxt_Test
     {
+        [TestMethod]
         public void Valide_Tamanno_Nombre_Archivo_Cuando_Archivo_Valido() {
 
             //Arrange
