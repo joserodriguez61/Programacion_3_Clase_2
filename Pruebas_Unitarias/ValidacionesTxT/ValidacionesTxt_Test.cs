@@ -22,7 +22,7 @@ namespace Pruebas_Unitarias.ValidacionesTxT
             Assert.AreEqual(respuestaEsperada,respuestaObtenida);
 
         }
-
+        [TestMethod]
         public void Valida_Tamanno_Nombre_Archivo_Cuando_Archivo_Invalido() {
 
             //Arrange
@@ -38,5 +38,23 @@ namespace Pruebas_Unitarias.ValidacionesTxT
             Assert.AreEqual(respuestaEsperada,respuestaObtenida);
         
         }
+
+        [TestMethod]
+        public void Valide_Primera_Letra_Nombre_Archivo_Cuando_Nombre_Valido() {
+
+            //Arrange
+            ValidacionesTxt validaciones = new ValidacionesTxt();
+            bool respuestaEsperada = true;
+            string nombreArchivo = "Manual";
+
+            //Act
+            bool respuestaObtenida = validaciones.Valide_Primera_Letra_Nombre_Archivo(nombreArchivo);
+
+            //Assert
+            Assert.AreEqual(respuestaEsperada,respuestaObtenida);
+
+        
+        }
+
     }
 }
